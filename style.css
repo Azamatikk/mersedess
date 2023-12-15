@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/milestones/defining-class/stage/09-2023/images/mercedes-benz-iaa-defining-class-stage-3840x2160-09-2023.cbv20230903180335.jpg/_jcr_content/renditions/mq5-original-aspect.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.left_link {
+    display: flex;
+    align-items: center;
+
+}
+
+.left_link ul,
+.right_link ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+}
+
+a {
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.left_link ul li {
+    margin: 0px 5px;
+}
+
+.left_link .privacy {
+    margin-left: 35px;
+
+}
+
+.center_logo img {
+    width: 40px;
+
+}
+
+.right_link ul li {
+    margin: 0px 25px;
+
+}
+
+menu ul {
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    justify-content: center;
+    padding: 25px;
+}
+
+.menu li {
+    margin: 0px 25px;
+}
+.main{
+    width: 310px;
+    margin: 140px 110px;
+}
+.main h1{
+    color: white;
+    font-size: 38px;
+}
+p{
+    color: white;
+    margin: 15px 0px;
+}
+button{
+    padding: 5px 25px;
+    border-radius: 25px;
+    border: none;
+}
